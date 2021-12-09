@@ -10,6 +10,7 @@ namespace VariaConsole.Models
     {
         public static void PersonDetail(Person[] people)
         {
+            Formatters.PersonHeader();
             decimal total = 0;
             foreach (var person in people)
             {
@@ -28,7 +29,7 @@ namespace VariaConsole.Models
 
             Console.WriteLine();
             string totalText = "Total";
-            Console.Write(totalText.PadRight(101,'.'));
+            Console.Write(totalText.PadRight(100,'.'));
             Console.WriteLine($"{total:c}");
         }
     }

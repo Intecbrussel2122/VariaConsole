@@ -8,13 +8,7 @@ namespace VariaConsole.Models
 {
     public class People
     {
-        Person[] people = new Person[4];
-
-        public Person[] GetPeople
-        {
-            get { return people; }
-        }
-
+        Person[] people = new Person[5];
         public Person[] SeedData()
         {
            
@@ -31,7 +25,7 @@ namespace VariaConsole.Models
             {
                 Id = 2,
                 Name = "Sagar",
-                Address = "Sagar's Address zeer lange ababaab sjgdfj hjsvf ",
+                Address = "Sagar's Address zeer lange adres  Sagar's Address zeer lange adres  ",
                 City = "Antwerpen",
                 BirthDate = new DateTime(1998, 02, 18),
                 Incomes = 2300.50m
@@ -53,6 +47,15 @@ namespace VariaConsole.Models
                 City = "Gent",
                 BirthDate = new DateTime(2000, 08, 5),
                 Incomes = 2400.50m
+            };
+            people[4] = new Person()
+            {
+                Id = 4,
+                Name = "Akin",
+                Address = "Akin's Address",
+                City = "Gent",
+                BirthDate = new DateTime(2000, 08, 5),
+                Incomes = 2900.50m
             };
 
             return people;
