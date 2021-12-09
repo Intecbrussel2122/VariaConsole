@@ -14,6 +14,5 @@ namespace VariaConsole.Models
         public string City { get; set; }
         public decimal Incomes { get; set; }
         public DateTime BirthDate { get; set; }
-       
     }
 }

@@ -26,7 +26,7 @@ namespace VariaConsole
             {
                 Id = 2,
                 Name = "Sagar",
-                Address = "Sagar's Address zeer lange",
+                Address = "Sagar's Address zeer lange ababaab sjgdfj hjsvf skjhksf kdjhs jhk j",
                 City = "Antwerpen",
                 BirthDate = new DateTime(1998, 02, 18),
                 Incomes = 2300.50m
@@ -57,7 +57,7 @@ namespace VariaConsole
 
             Formatters.PersonHeader();
             PersonDetails.PersonDetail(people);
-            
+
         }
     }
 }

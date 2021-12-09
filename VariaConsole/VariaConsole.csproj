@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Models\Formatters.cs" />
+    <Compile Include="Models\People.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="Models\PersonDetails.cs" />
     <Compile Include="Program.cs" />
